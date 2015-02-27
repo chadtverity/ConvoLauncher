@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.css" rel="stylesheet">
+  <link href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.js"></script>
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-control-title="Difficulty Level" id="page1"
+style="background: url('/images/Purple_Background.jpg') no-repeat; background-size=100%">
+    <div role="main" class="ui-content" style="padding: 10%">
+        <div style=" text-align:center" data-controltype="image">
+            <img style="width: 50%; height: 33%" src="/images/logo.png">
+        </div>
+        <h3>
+            Choose a Conversation Level Below
+        </h3>
+        <h1>
+            Instructions
+        </h1>
+        <div data-controltype="textblock">
+            <p>
+                <span style="color: rgb(255, 255, 255);">
+                    <b>
+                        ConvoLauncher is the simple game to launch amazing conversations with
+                        anyone from complete strangers to close friends. We've developed this as
+                        an easy to use tool for use during YU-Adventures or anytime you just need
+                        help starting a conversation.
+                    </b>
+                </span>
+            </p>
+            <h3>
+                <span style="color: rgb(255, 255, 255);">
+                    Step 1
+                </span>
+            </h3>
+            <h4>
+                <span style="color: rgb(255, 255, 255);">
+                    Select a level of conversation that is apporopiate to the relationship
+                    you have with the other person.
+                </span>
+            </h4>
+            <p>
+                <span style="color: rgb(255, 255, 255);">
+                    <b>
+                        Too low a level of conversation starter and you'll soon realize that you're
+                        really not engaging in meaningful conversation. To high a level and you'll
+                        soon realize that your relationship lacks the amount of trust required
+                        for the conversation.
+                    </b>
+                </span>
+            </p>
+            <h3>
+                <span style="color: rgb(255, 255, 255);">
+                    Step 2
+                </span>
+            </h3>
+            <h4>
+                <span style="color: rgb(255, 255, 255);">
+                    Ask the question you see on the screen
+                </span>
+            </h4>
+            <h3>
+                <span style="color: rgb(255, 255, 255);">
+                    Step 3
+                </span>
+            </h3>
+            <p>
+                <span style="color: rgb(255, 255, 255);">
+                    <b>
+                        Press 'Next' and another question will be randomly selected for you.
+                    </b>
+                </span>
+            </p>
+            <h3>
+                <span style="color: rgb(255, 255, 255);">
+                    Step 4
+                </span>
+            </h3>
+            <h4>
+                <span style="color: rgb(255, 255, 255);">
+                    When you feel you're ready to go deeper in your conversation go to the
+                    next level and repeat the above steps.
+                </span>
+            </h4>
+            <h3>
+                <span style="color: rgb(255, 255, 255);">
+                    Warning: Going into deeper levels of conversation increases the level
+                    of intimacy in any relationship. This tool is not meant as a dating tool.
+                    Never ask or answer a question you're not comfortable with.&nbsp;
+                </span>
+            </h3>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#page8" data-transition="fade" data-theme="" data-icon="plus">
+                    Level One
+                </a>
+            </li>
+            <li>
+                <a href="#page11" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Two
+                </a>
+            </li>
+            <li>
+                <a href="#page12" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Three
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Level 1" id="page8" style="background: url('/images/Blue_Background.jpg') no-repeat; background-size:100%;">
+    <div role="main" class="ui-content" style="padding: 5px">
+    </br>
+        <h1>
+            Level 1 - Get to Know You
+        </h1>
+        </br>
+        </br>
+        </br>
+        </br>
+        <form>
+            <div class="ui-field-contain" data-controltype="selectmenu">
+                <select id="selectVendor" name="">
+                    <option value="option1">
+                        What is one of the most adventurous things you’ve ever done?
+                    </option>
+                    <option value="value">
+                        What’s the furthest place you’ve ever been from your current home?
+                    </option>
+                    <option value="value">
+                        For you, what was the best thing about being in Junior High?
+                    </option>
+                    <option value="value">
+                        What is something you like about yourself?
+                    </option>
+                    <option value="value">
+                        What do you plan to do when you graduate?
+                    </option>
+                    <option value="value">
+                        What is one of the best books you’ve ever read?
+                    </option>
+                    <option value="value">
+                        What is the most recent book you read?
+                    </option>
+                    <option value="value">
+                        What is one gadget you’d like to own?
+                    </option>
+                    <option value="value">
+                        Who is your best friend?
+                    </option>
+                    <option value="value">
+                        Who was your best friend as a kid?
+                    </option>
+                    <option value="value">
+                        Who was your best friend in Grade ?
+                    </option>
+                    <option value="value">
+                        Who is your best friend in high school?
+                    </option>
+                    <option value="value">
+                        If you could travel anywhere in the world, where would you go?
+                    </option>
+                    <option value="value">
+                        What do you think your life to be like five years from now?
+                    </option>
+                    <option value="value">
+                        Name one of your most favorite possessions.
+                    </option>
+                    <option value="value">
+                        Did you have a childhood nickname? If so, what’s the story behind it?
+                    </option>
+                    <option value="value">
+                        What is something you are looking forward to doing within the next six
+                        months?
+                    </option>
+                    <option value="value">
+                        What is your favorite part about coming to Life ?
+                    </option>
+                    <option value="value">
+                        If you could possess any extraordinary talent in one of the arts, what
+                        would you choose?
+                    </option>
+                    <option value="value">
+                        What’s your favorite musical group?
+                    </option>
+                    <option value="value">
+                        What’s your most favorite concert you’ve ever been to?
+                    </option>
+                    <option value="value">
+                        What is your favorite outfit to wear?
+                    </option>
+                    <option value="value">
+                        What are you dreaming about for your life?
+                    </option>
+                    <option value="value">
+                        If you could own the world’s largest collection of something, what would
+                        it be?
+                    </option>
+                    <option value="value">
+                        What is the most important thing that makes a relationship successful?
+                    </option>
+                    <option value="value">
+                        When you think about your future, what are you most excited about?
+                    </option>
+                    <option value="value">
+                        What happened to you last week that you hope happens next week?
+                    </option>
+                    <option value="value">
+                        If you could be one age for the rest of your life, how old would you choose
+                        to be?
+                    </option>
+                    <option value="value">
+                        What is some place that you would really like to visit?
+                    </option>
+                    <option value="value">
+                        What is one thing you’ve never done that you would really like to do?
+                    </option>
+                    <option value="value">
+                        What is your least favorite chore to do at home?
+                    </option>
+                    <option value="value">
+                        If you could invent a holiday, what and when would it be?
+                    </option>
+                    <option value="value">
+                        Have you ever written any poetry or songs? If so, what about?
+                    </option>
+                    <option value="value">
+                        What are qualities you want your friends to have?
+                    </option>
+                    <option value="value">
+                        What do you hope your life will be like years from now?
+                    </option>
+                    <option value="value">
+                        If you could be a contestant on any game show, which one would you choose?
+                    </option>
+                    <option value="value">
+                        When you are surprised with free minutes during the day, how do you spend
+                        it?
+                    </option>
+                    <option value="value">
+                        If you could change one thing about your school, what would it be?
+                    </option>
+                    <option value="value">
+                        How would you explain/describe joy to someone who doesn't speak the same
+                        language as you?
+                    </option>
+                    <option value="value">
+                        What activity in your life makes you smile the most?
+                    </option>
+                    <option value="value">
+                        What one possession do you most cherish?
+                    </option>
+                    <option value="value">
+                        What was your very first job?
+                    </option>
+                    <option value="value">
+                        If you could have any one super-power, which one would you choose and
+                        why?
+                    </option>
+                    <option value="value">
+                        What’s your least favorite sound in the world?
+                    </option>
+                    <option value="value">
+                        If you could personally witness any event in history, which one would
+                        you choose?
+                    </option>
+                    <option value="value">
+                        What is one step you can take to become more like your role model?
+                    </option>
+                    <option value="value">
+                        When you get an unexpected hour of free time, how do you spend it?
+                    </option>
+                    <option value="value">
+                        List all of the cities you have lived in, and how long / what ages you
+                        lived there.
+                    </option>
+                    <option value="value">
+                        Who’s someone you admire/respect? Why?
+                    </option>
+                    <option value="value">
+                        What CD is in your CD player right now?
+                    </option>
+                    <option value="value">
+                        What DVD is in your DVD player right now?
+                    </option>
+                    <option value="value">
+                        What playlist is currently playing on your iPod right now?
+                    </option>
+                    <option value="value">
+                        When you need just groceries – like a loaf of bread – where do you go
+                        to buy it?
+                    </option>
+                    <option value="value">
+                        What’s the most needlessly repeated phrase a parent or teacher of yours
+                        ever uses / used?
+                    </option>
+                    <option value="value">
+                        If you had an unlimited gift card to any one restaurant, which one would
+                        you choose?
+                    </option>
+                    <option value="value">
+                        If you could have a bottomless drink dispenser in your kitchen which drink
+                        would you choose?
+                    </option>
+                    <option value="value">
+                        What is one of your most favorite songs?
+                    </option>
+                    <option value="value">
+                        if you had $5 to spend, how would you spend it?
+                    </option>
+                    <option value="value">
+                        If you had $50 to spend, how would you spend it?
+                    </option>
+                    <option value="value">
+                        If you had $500 to spend, how would you spend it?
+                    </option>
+                    <option value="value">
+                        If you had a theme song (one that played every time you entered a room),
+                        which song would you choose?
+                    </option>
+                    <option value="value">
+                        What is your favorite animal?
+                    </option>
+                    <option value="value">
+                        Where were you born (hospital, state, city)?
+                    </option>
+                    <option value="value">
+                        Where is your favorite place to eat?
+                    </option>
+                    <option value="value">
+                        What are your favorite kinds of flowers?
+                    </option>
+                    <option value="value">
+                        What toy from childhood was your favorite toy to play with?
+                    </option>
+                    <option value="value">
+                        If one of your senses could have supernatural abilities, which one sense
+                        would you choose?
+                    </option>
+                    <option value="value">
+                        If you could have any animal in the world as a pet, what animal would
+                        you choose?
+                    </option>
+                    <option value="value">
+                        If you could use any mode of transportation to get somewhere, which one
+                        would you choose?
+                    </option>
+                    <option value="value">
+                        Who is your favorite cartoon character? Why?
+                    </option>
+                    <option value="value">
+                        If you could live anywhere in the Canada for 3 months, where would you
+                        live? Why?
+                    </option>
+                    <option value="value">
+                        What is your favorite thing to do with friends?
+                    </option>
+                    <option value="value">
+                        What’s your dream car?
+                    </option>
+                    <option value="value">
+                        What is the best thing that has happened to you in the past year?
+                    </option>
+                    <option value="value">
+                        What is your favorite ice cream topping?
+                    </option>
+                    <option value="value">
+                        What is your favorite ice cream flavor?
+                    </option>
+                    <option value="value">
+                        What thing doesn’t exist that someone needs to invent?
+                    </option>
+                    <option value="value">
+                        If we could have this conversation anywhere, where would you like to have
+                        it?
+                    </option>
+                    <option value="value">
+                        What is one other hair-style you have had besides the one you currently
+                        have?
+                    </option>
+                    <option value="value">
+                        What is your favorite kind of fruit?
+                    </option>
+                    <option value="value">
+                        If you could be on any Game Show, which one would you choose?
+                    </option>
+                    <option value="value">
+                        If you could be on any Reality TV Show, which one would you choose?
+                    </option>
+                    <option value="value">
+                        If you could design the perfect TV channel, what would be on it?
+                    </option>
+                    <option value="value">
+                        What one thing would you change about your house if you could?
+                    </option>
+                    <option value="value">
+                        How many siblings do you have?
+                    </option>
+                    <option value="value">
+                        If you could write an article for any magazine, which magazine would you
+                        choose, and what would your article be about?
+                    </option>
+                    <option value="value">
+                        What was the most recent movie you saw in the theater?
+                    </option>
+                    <option value="value">
+                        What was the most recent stage performance you’ve seen?
+                    </option>
+                    <option value="value">
+                        What’s the best stage performance you’ve ever seen?
+                    </option>
+                    <option value="value">
+                        How often do you check your e-mail? Facebook? Voice &amp; text messages?
+                    </option>
+                    <option value="value">
+                        Do you read any blogs? If so, whose and how often?
+                    </option>
+                    <option value="value">
+                        If you could plan your own birthday party, what would you plan?
+                    </option>
+                    <option value="value">
+                        If you were stuck in an elevator for hours with one person, who would
+                        you like that person to be?
+                    </option>
+                    <option value="value">
+                        If you could have one superpower, what would you choose and what would
+                        you use it for?
+                    </option>
+                    <option value="value">
+                        If you had to have the exact same meal for the next twelve months… what
+                        would you choose?
+                    </option>
+                    <option value="value">
+                        Who is your superhero?
+                    </option>
+                    <option value="value">
+                        What’s your favorite chocolate bar?
+                    </option>
+                    <option value="value">
+                        What’s your favorite colour?
+                    </option>
+                    <option value="value">
+                        Where do you like to sit on a School bus?
+                    </option>
+                    <option value="value">
+                        If you had a free Saturday, how would you use it?
+                    </option>
+                    <option value="value">
+                        What is your favorite sports team?
+                    </option>
+                    <option value="value">
+                        You've been asked to produce a reality TV show. Describe the premise.
+                    </option>
+                    <option value="value">
+                        If you just won $100 million, would you quit school?
+                    </option>
+                </select>
+            <script> var options = $("#selectVendor > option");
+
+var random = Math.floor(options.length * (Math.random() % 1));
+
+$("#selectVendor > option").attr('selected',false).eq(random).attr('selected',true);</script>
+            </div>
+           
+          <table width="100%" border="0">
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td> <button onclick="myFunction()" style="align-content:center">Next!</button>
+            <script>
+function myFunction() {
+    location.reload();
+}
+</script></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+          </table>
+        </form>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#page8" data-transition="fade" data-theme="" data-icon="plus">
+                    Level One
+                </a>
+            </li>
+            <li>
+                <a href="#page11" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Two
+                </a>
+            </li>
+            <li>
+                <a href="#page12" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Three
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Level 2" id="page11" style="background: url('/images/Green_Background.jpg') no-repeat; background-size:100%;">
+    <div role="main" class="ui-content">
+       </br>
+        <h1>
+            Level 2 - Discuss Faith, Religion, Activism, Dreams and Goals
+        </h1>
+          </br>
+        </br>
+        </br>
+        </br>
+        <form>
+            <div class="ui-field-contain" data-controltype="selectmenu">
+                <select id="selectVendor2" name="">
+                    <option value="option1">
+                        If you could have anyone play you in the movie of your life, who would
+                        it be?
+                    </option>
+                    <option value="value">
+                        What was the toughest thing about being in elementary school for you?
+                    </option>
+                    <option value="value">
+                        Describe high school in three words.
+                    </option>
+                    <option value="value">
+                        Can you recall a verse from the Bible you've learned or heard?
+                    </option>
+                    <option value="value">
+                        Which historical character do you most relate to or identify with?
+                    </option>
+                    <option value="value">
+                        What is your earliest memory?
+                    </option>
+                    <option value="value">
+                        Do you dream in color? How about in sound? How do you know?
+                    </option>
+                    <option value="value">
+                        What is one thing you wish you had more time for in your life?
+                    </option>
+                    <option value="value">
+                        How would you define the word 'Christian'?
+                    </option>
+                    <option value="value">
+                        What’s your favorite characteristic of God?
+                    </option>
+                    <option value="value">
+                        What’s your least favorite characteristic of God?
+                    </option>
+                    <option value="value">
+                        What is one thing you’d like your parents to say to you?
+                    </option>
+                    <option value="value">
+                        What would you like for your life to be like five years from now?
+                    </option>
+                    <option value="value">
+                        What is one question God might ask you?
+                    </option>
+                    <option value="value">
+                        What is one question you'd like to ask God?
+                    </option>
+                    <option value="value">
+                        When do you get discouraged?
+                    </option>
+                    <option value="value">
+                        Where in your daily routine could you become more aware of God’s presence?
+                    </option>
+                    <option value="value">
+                        What small thing could you do for God this week?
+                    </option>
+                    <option value="value">
+                        What is one way you can interact with God this week without using music?
+                    </option>
+                    <option value="value">
+                        What is your goal in life?
+                    </option>
+                    <option value="value">
+                        What is one regret you have from last week?
+                    </option>
+                    <option value="value">
+                        If God could only say one thing to you, what do you think He would choose
+                        to say?
+                    </option>
+                    <option value="value">
+                        What draws you closer to God more than anything else?
+                    </option>
+                    <option value="value">
+                        What could we do to protect and promote the unity of our group?
+                    </option>
+                    <option value="value">
+                        What is one thing you hope will happen with this group?
+                    </option>
+                    <option value="value">
+                        Who had a profoundly positive influence on you as a child?
+                    </option>
+                    <option value="value">
+                        What is one verse of Scripture that you have memorized?
+                    </option>
+                    <option value="value">
+                        Who do you wish would listen more closely to you?
+                    </option>
+                    <option value="value">
+                        When do you feel most content?
+                    </option>
+                    <option value="value">
+                        What’s one thing you like about your Mom?
+                    </option>
+                    <option value="value">
+                        What’s one trait you admire about your Dad?
+                    </option>
+                    <option value="value">
+                        Did you get to know all of your grandparents? If so, how old were you
+                        when they passed away?
+                    </option>
+                    <option value="value">
+                        How often do / did you get to see your grandparents?
+                    </option>
+                    <option value="value">
+                        Did you get to know any of your great-grandparents? If so, how old were
+                        you when they passed away?
+                    </option>
+                    <option value="value">
+                        What’s the hardest thing for you to do?
+                    </option>
+                    <option value="value">
+                        What do you think your life will be like 5 years from now?
+                    </option>
+                    <option value="value">
+                        If you had one more day to live, how would you spend it?
+                    </option>
+                    <option value="value">
+                        How did you get along with your parents during your teen years?
+                    </option>
+                    <option value="value">
+                        Which Biblical character do you think you are most like? Why?
+                    </option>
+                    <option value="value">
+                        Have you ever been to a church? If so, describe your experience.
+                    </option>
+                    <option value="value">
+                        What would you order as your final meal?
+                    </option>
+                    <option value="value">
+                        If Jesus drove a car, what kind of car would he drive?
+                    </option>
+                    <option value="value">
+                        Do you have a verse, proverb, saying or scripture that is meaningful to
+                        you?
+                    </option>
+                    <option value="value">
+                        What is one statement that you hope people will say about you after you
+                        die?
+                    </option>
+                    <option value="value">
+                        What is one opportunity you have had in the last week to help someone?
+                    </option>
+                    <option value="value">
+                        What is one thing that happened to you this week that made you laugh?
+                    </option>
+                    <option value="value">
+                        If you could go on a trip anywhere with three other people, where would
+                        you go and what three people would you take?
+                    </option>
+                    <option value="value">
+                        What is the scariest thing you’ve ever done?
+                    </option>
+                    <option value="value">
+                        How many children would you like to have – and how many of each gender?
+                    </option>
+                    <option value="value">
+                        What is something about God or Christianity that you have a hard time
+                        believing?
+                    </option>
+                    <option value="value">
+                        If you could achieve the highest level of education in any one discipline,
+                        which would you choose?
+                    </option>
+                    <option value="value">
+                        Do you have any nervous habits that you do?
+                    </option>
+                    <option value="value">
+                        What would be the hardest thing for God to ask you to do?
+                    </option>
+                    <option value="value">
+                        Who was your first crush?
+                    </option>
+                    <option value="value">
+                        Who was your first celebrity crush?
+                    </option>
+                    <option value="value">
+                        Who was your first kiss?
+                    </option>
+                    <option value="value">
+                        If you could repeat any day of your life, what would that be?
+                    </option>
+                    <option value="value">
+                        If you could go on vacation anywhere and bring just people, where would
+                        you choose and who would you bring?
+                    </option>
+                    <option value="value">
+                        What is something you have sacrificed or given up for someone else?
+                    </option>
+                    <option value="value">
+                        What is something someone else has sacrificed or given up for you?
+                    </option>
+                    <option value="value">
+                        How would you act on opposite day?
+                    </option>
+                    <option value="value">
+                        Imagine you were offered a recording deal right out of high school. What
+                        would be the advantages and disadvantages of this opportunity?
+                    </option>
+                    <option value="value">
+                        If you were in charge of a school, what would you want students to learn?
+                        How would students be taught or tested?
+                    </option>
+                    <option value="value">
+                        What if someone saw you on a really bad day? What would they see?
+                    </option>
+                    <option value="value">
+                        "Your teenage years are the best years of your life." What is true about
+                        this statement? What is untrue?
+                    </option>
+                    <option value="value">
+                        What if we were awarded careers based solely on physical appearances/characteristics?
+                        How would you feel about a society like that?
+                    </option>
+                    <option value="value">
+                        If you could be a participant on a self-improvement reality show what
+                        would you want to change?
+                    </option>
+                    <option value="value">
+                        If you graduated from high school today, what would you do tomorrow?
+                    </option>
+                    <option value="value">
+                        Describe your ideal job.
+                    </option>
+                    <option value="value">
+                        Where do you find yourself most at peace?
+                    </option>
+                    <option value="value">
+                        If you could have anything in your hand right now what would it be?
+                    </option>
+                    <option value="value">
+                        What one question would you like to ask God?
+                    </option>
+                    <option value="value">
+                        What is something you're learning right now?
+                    </option>
+                    <option value="value">
+                        What is your earliest memory?
+                    </option>
+                    <option value="value">
+                        What is your favorite Canadian city?
+                    </option>
+                    <option value="value">
+                        Describe your favorite childhood vacation?
+                    </option>
+                    <option value="value">
+                        Describe a childhood pet.
+                    </option>
+                    <option value="value">
+                        Describe a recurring fear.
+                    </option>
+                    <option value="value">
+                        What are you looking for in a spouse?
+                    </option>
+                    <option value="value">
+                        What is your largest fear about the trip?
+                    </option>
+                    <option value="value">
+                        Describe a time when you've thrown up in public.
+                    </option>
+                    <option value="value">
+                        Describe the time when you were in the most trouble you've ever been in.
+                    </option>
+                    <option value="value">
+                        Would you rather spend a day in the mountains or a day on the beach?
+                    </option>
+                    <option value="value">
+                        What is something that makes you passionate?
+                    </option>
+                    <option value="value">
+                        What is a cause you'd be willing to give your life to?
+                    </option>
+                    <option value="value">
+                        You mysteriously wake up in an airport of a country where you don't speak
+                        the language. What is your first action?
+                    </option>
+                    <option value="value">
+                        Describe a dream (while sleeping) you've had that disturbed you.
+                    </option>
+                    <option value="value">
+                        What do you daydream about?
+                    </option>
+                    <option value="value">
+                        What is your best accent impression?
+                    </option>
+                    <option value="value">
+                        Share the plot of a movie you want to make.
+                    </option>
+                    <option value="value">
+                        If you could be the spokesperson for a product, what product would you
+                        endorse?
+                    </option>
+                    <option value="value">
+                        Describe a situation you've been in that made you uncomfortable.
+                    </option>
+                    <option value="value">
+                        Describe a business you'd like to start.
+                    </option>
+                    <option value="value">
+                        Describe an opportunity you've passed up that you wish you hadn't.
+                    </option>
+                    <option value="value">
+                        If you could teach a course in college, what subject would you teach on?
+                    </option>
+                    <option value="value">
+                        What is something that you question about organized religion?
+                    </option>
+                    <option value="value">
+                        What is something that makes you feel insecure?
+                    </option>
+                    <option value="value">
+                        Do you push the elevator button more than once? Do you really believe
+                        it makes the elevator faster?
+                    </option>
+                    <option value="value">
+                        Would you rather be a worried genius or a joyful simpleton?
+                    </option>
+                    <option value="value">
+                        Would you be willing to reduce your life expectancy by 10 years to become
+                        extremely attractive or famous?
+                    </option>
+                    <option value="value">
+                        What is the difference between being alive and truly living?
+                    </option>
+                    <option value="value">
+                        If you could steal one thing, without consequences, what would it be?
+                    </option>
+                    <option value="value">
+                        What is the key to world peace?
+                    </option>
+                </select>
+                <script> var options = $("#selectVendor2 > option");
+
+var random = Math.floor(options.length * (Math.random() % 1));
+
+$("#selectVendor2 > option").attr('selected',false).eq(random).attr('selected',true);</script>
+            </div>
+             <table width="100%" border="0">
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td> <button onclick="myFunction()" style="align-content:center">Next!</button>
+            <script>
+function myFunction() {
+    location.reload();
+}
+</script></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+          </table>
+        </form>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#page8" data-transition="fade" data-theme="" data-icon="plus">
+                    Level One
+                </a>
+            </li>
+            <li>
+                <a href="#page11" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Two
+                </a>
+            </li>
+            <li>
+                <a href="#page12" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Three
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Level 3" id="page12" style="background: url('/images/Yellow_Background.jpg') no-repeat; background-size:100%;">
+    <div role="main" class="ui-content">
+      </br>
+     
+        <h1>
+            Level 3 - Go Deeper with Friends
+        </h1>
+          </br>
+        </br>
+        </br>
+        </br>
+        <form>
+            <div class="ui-field-contain" data-controltype="selectmenu">
+                <select id="selectVendor3" name="">
+                    <option value="option1">
+                        How has God used pain or trouble to help you grow?
+                    </option>
+                    <option value="value">
+                        With whom do you need to restore a broken relationship?
+                    </option>
+                    <option value="value">
+                        What is one thing you wish your parents had said to you growing up?
+                    </option>
+                    <option value="value">
+                        A year from now, how would you like to be more Christ-like?
+                    </option>
+                    <option value="value">
+                        Who is the most important person in your life and what could you do to
+                        enhance your relationship?
+                    </option>
+                    <option value="value">
+                        What is one step God is calling you to take in faith to become more like
+                        Jesus?
+                    </option>
+                    <option value="value">
+                        What is your most urgent prayer request right now?
+                    </option>
+                    <option value="value">
+                        If you died today, what would you most regret not having told someone?
+                    </option>
+                    <option value="value">
+                        Do you have a visible scar? If so, how did you get it?
+                    </option>
+                    <option value="value">
+                        In what area of your life do you need to trust more?
+                    </option>
+                    <option value="value">
+                        Have you ever heard the voice of the God? If so, what did He say?
+                    </option>
+                    <option value="value">
+                        When do you feel farthest from your true self?
+                    </option>
+                    <option value="value">
+                        What’s the biggest struggle you are facing in life right now?
+                    </option>
+                    <option value="value">
+                        What are your greatest weaknesses as a teenager?
+                    </option>
+                    <option value="value">
+                        Describe your relationship with your siblings?
+                    </option>
+                    <option value="value">
+                        What is one personal tragedy you have overcome?
+                    </option>
+                    <option value="value">
+                        What is your biggest fear?
+                    </option>
+                    <option value="value">
+                        What are your death words – words that would trigger other struggles?
+                    </option>
+                    <option value="value">
+                        What is something that causes you pain?
+                    </option>
+                    <option value="value">
+                        Describe a time when you've had your heart broken.
+                    </option>
+                    <option value="value">
+                        How would you describe freedom?
+                    </option>
+                    <option value="value">
+                        Describe your worth.
+                    </option>
+                    <option value="value">
+                        Where do you go when you die?
+                    </option>
+                    <option value="value">
+                        What do you want your funeral to be like?
+                    </option>
+                    <option value="value">
+                        Describe the last time you cried.
+                    </option>
+                    <option value="value">
+                        How does your parents relationship affect you?
+                    </option>
+                    <option value="value">
+                        Who is someone you wish you could have a conversation with? What would
+                        you say?
+                    </option>
+                    <option value="value">
+                        What is something that would make you run in the opposite direction?
+                    </option>
+                    <option value="value">
+                        Who is someone you want to forgive but can't?
+                    </option>
+                    <option value="value">
+                        Describe something you regret doing while with friends that you wouldn't
+                        have done on your own.
+                    </option>
+                    <option value="value">
+                        Describe a time when you've wanted to run away.
+                    </option>
+                    <option value="value">
+                        How do you feel when you look in the mirror? What is the first thing that
+                        pops in your head?
+                    </option>
+                    <option value="value">
+                        Describe a time when you've been hurt by a friend.
+                    </option>
+                    <option value="value">
+                        Describe a time when you've been blessed by a friend.
+                    </option>
+                    <option value="value">
+                        Who was the one that got away?
+                    </option>
+                    <option value="value">
+                        How far would you go to save someone else's life?
+                    </option>
+                    <option value="value">
+                        Where do you go to recharge your energy level?
+                    </option>
+                    <option value="value">
+                        If you could "photoshop" an aspect of your life, what would it be?
+                    </option>
+                    <option value="value">
+                        How good are you at keeping secrets?
+                    </option>
+                    <option value="value">
+                        If you were responsible for determining justice for a Nazi war criminal,
+                        what would you determine?
+                    </option>
+                    <option value="value">
+                        What is a current trend that you would stop if you could?
+                    </option>
+                    <option value="value">
+                        To what degree have you actually controlled the course your life has taken?
+                    </option>
+                    <option value="value">
+                        Are you doing what you believe in, or are you settling for what you are
+                        doing?
+                    </option>
+                    <option value="value">
+                        What’s something you know you do differently than most people?
+                    </option>
+                    <option value="value">
+                        Have you ever seen insanity where you later saw creativity?
+                    </option>
+                    <option value="value">
+                        How come the things that make you happy don’t make everyone happy?
+                    </option>
+                    <option value="value">
+                        What one thing have you not done that you really want to do? What’s holding
+                        you back?
+                    </option>
+                    <option value="value">
+                        Are you holding onto something you need to let go of?
+                    </option>
+                    <option value="value">
+                        Why are you, you?
+                    </option>
+                    <option value="value">
+                        Are you the kind of friend you want as a friend? How do you know?
+                    </option>
+                    <option value="value">
+                        What are you most grateful for?
+                    </option>
+                    <option value="value">
+                        Would you rather lose all of your old memories, or never be able to make
+                        new ones?
+                    </option>
+                    <option value="value">
+                        Is it possible to know the truth without challenging it first?
+                    </option>
+                    <option value="value">
+                        Has your greatest fear ever come true?
+                    </option>
+                    <option value="value">
+                        Do you remember that time 5 years ago when you were extremely upset? Does
+                        it really matter now?
+                    </option>
+                    <option value="value">
+                        Have you ever been with someone, said nothing, and walked away feeling
+                        like you just had the best conversation ever?
+                    </option>
+                    <option value="value">
+                        Why do religions that support love cause so many wars?
+                    </option>
+                    <option value="value">
+                        Is it possible to know, without a doubt, what is good and what is evil?
+                    </option>
+                    <option value="value">
+                        If you knew that everyone you know was going to die tomorrow, who would
+                        you visit today?
+                    </option>
+                    <option value="value">
+                        If we learn from our mistakes, why are we always so afraid to make a mistake?
+                    </option>
+                    <option value="value">
+                        What would you do differently if you knew nobody would judge you?
+                    </option>
+                    <option value="value">
+                        What do you love? Have any of your recent actions openly expressed this
+                        love?
+                    </option>
+                    <option value="value">
+                        In 5 years from now, will you remember what you did yesterday?
+                    </option>
+                    <option value="value">
+                        Which teacher had the biggest influence on your life?
+                    </option>
+                    <option value="value">
+                        What is the most traumatic event you've ever witnessed?
+                    </option>
+                    <option value="value">
+                        What are your favorite kinds of flowers?
+                    </option>
+                    <option value="value">
+                        If someone wrote a biography of your life, what would you want the final
+                        chapter to be about?
+                    </option>
+                    <option value="value">
+                        What happened the time in your life when you were the most nervous to
+                        do something?
+                    </option>
+                    <option value="value">
+                        What did Jesus mean when he said "Whenever you failed to do one of these
+                        things to someone who was being overlooked or ignored, that was me—you
+                        failed to do it to me."
+                    </option>
+                    <option value="value">
+                        According to C.S. Lewis Jesus was either a)The Son of God, b) a lunatic
+                        or c) the son of Satan. What do you think?
+                    </option>
+                    <option value="value">
+                        How do you feel when you watch the news?
+                    </option>
+                    <option value="value">
+                        What do you think about when you are stressed?
+                    </option>
+                    <option value="value">
+                        What is a habit you wish you could instantly stop?
+                    </option>
+                    <option value="value">
+                        What is a reoccuring thought you wish you could instantly stop?
+                    </option>
+                    <option value="value">
+                        What is the best thing that has happened to you in the past year?
+                    </option>
+                    <option value="value">
+                        Do you believe in hell? If so, describe it. Who deserves to go there?
+                    </option>
+                    <option value="value">
+                        Does believing something is true impact the reality of somethings existence?
+                    </option>
+                    <option value="value">
+                        Where do you find peace?
+                    </option>
+                    <option value="value">
+                        Where do you find joy?
+                    </option>
+                    <option value="value">
+                        The Bible, in the book of Romans, says "We can understand someone dying
+                        for a person worth dying for, and we can understand how someone good and
+                        noble could inspire us to selfless sacrifice. But God put his love on the
+                        line for us by offering his Son in sacrificial death while we were of no
+                        use whatever to him." What do you think about this statement?
+                    </option>
+                    <option value="value">
+                        What is something you're worries people will discover about you on this
+                        trip?
+                    </option>
+                    <option value="value">
+                        What is something you're hoping to grow in on this trip?
+                    </option>
+                    <option value="value">
+                        Where is something you use to cope with stressful situations?
+                    </option>
+                    <option value="value">
+                        There are approximately 27 Million people living in slavery on Earth today.
+                        How do you respond?
+                    </option>
+                    <option value="value">
+                        3 in 10 people alive today live on less than 2 dollars a day. How do you
+                        respond?
+                    </option>
+                    <option value="value">
+                        Can love overcome terror? How or How not?
+                    </option>
+                    <option value="value">
+                        Describe a time when you verbally forgave someone.
+                    </option>
+                    <option value="value">
+                        Have you ever been arrested? Would have been arrested if you had been
+                        caught?
+                    </option>
+                    <option value="value">
+                        Describe a time when you feared for your life.
+                    </option>
+                    <option value="value">
+                        Have you ever witnessed someone being hurt?
+                    </option>
+                    <option value="value">
+                        Have you ever bullied someone?
+                    </option>
+                    <option value="value">
+                        Have you ever been bullied?
+                    </option>
+                    <option value="value">
+                        Describe how you feel about your families socioeconomic status.
+                    </option>
+                    <option value="value">
+                        Have you ever altered your physical appearance to feel better about yourself?
+                    </option>
+                    <option value="value">
+                        Describe a time when you had to say goodbye to a friend.
+                    </option>
+                    <option value="value">
+                        What is a personal goal you worry will never be accomplished?
+                    </option>
+                    <option value="value">
+                        If you had to place a monetary value on your life, what would it be?
+                    </option>
+                </select>
+                <script> var options = $("#selectVendor3 > option");
+
+var random = Math.floor(options.length * (Math.random() % 1));
+
+$("#selectVendor3 > option").attr('selected',false).eq(random).attr('selected',true);</script>
+            </div>
+             <table width="100%" border="0">
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td> <button onclick="myFunction()" style="align-content:center">Next!</button>
+            <script>
+function myFunction() {
+    location.reload();
+}
+</script></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+          </table>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#page8" data-transition="fade" data-theme="" data-icon="plus">
+                    Level One
+                </a>
+            </li>
+            <li>
+                <a href="#page11" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Two
+                </a>
+            </li>
+            <li>
+                <a href="#page12" data-transition="fade" data-theme="" data-icon="plus">
+                    Level Three
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
