@@ -134,9 +134,9 @@ style="background: url('http://morphcreative.ca/ConvoLauncher/images/Purple_Back
 <div data-role="page" data-control-title="Level 1" id="page8" style="background: url('http://morphcreative.ca/ConvoLauncher/images/Blue_Background.jpg') no-repeat; background-size:100%;">
     <div role="main" class="ui-content" style="padding: 5px">
         <form>
-            <div class="ui-field-contain" data-controltype="selectmenu">
+            
                 
-            </div>
+           
            
           <table width="100%" height="100%" order="0">
               <tbody>
@@ -150,7 +150,9 @@ style="background: url('http://morphcreative.ca/ConvoLauncher/images/Purple_Back
                 <tr>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
-                  <td><select id="selectVendor" name="">
+                  <td>
+                  <div class="ui-field-contain" data-controltype="selectmenu">
+                  <select id="selectVendor" name="">
                     <option value="option1">
                         What is one of the most adventurous things you’ve ever done?
                     </option>
@@ -501,7 +503,7 @@ $("#selectVendor > option").attr('selected',false).eq(random).attr('selected',tr
 function myFunction() {
     location.reload();
 }
-</script></td>
+</script> </div></td>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
                 </tr>
