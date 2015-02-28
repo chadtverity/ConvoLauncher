@@ -4849,9 +4849,9 @@ html .ui-popup .ui-field-contain > label + .ui-flipswitch {
 }
 @media only screen and (max-width: 640px) {
 
-   h1 { font-size: 1em; }
-   h2 {font-size: 1em;}
-   span#question {font-size: 1em;}
+   h1 { font-size: 1.5em; }
+   h2 {font-size: 1.5em;}
+   span#question {font-size: 1.5em;}
 	button.ui-btn.ui-shadow.ui-corner-all {font-size: 1em;}
 		table {margin-top:0;}
 	.ui-field-contain,
