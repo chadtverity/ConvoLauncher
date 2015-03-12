@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.js"></script>
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-control-title="Level 1" id="page8" style="background: url('images/Blue_Background.jpg') no-repeat; background-size:100%; background-attachment: fixed;">
+    
+    <div role="main" class="ui-content">
+        <form>
+          
+       <table width="100%" height="100%" order="0">
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td><h1>Level 1 - Get to Know You </h1></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>
+                  <div class="ui-field-contain" data-controltype="selectmenu">
+                  <script type="text/javascript">
+<!--
+var r_text = new Array ();
+r_text[0] = "What is one of the most adventurous things you’ve ever done?";
+                    r_text[0] = "What’s the furthest place you’ve ever been from your current home?";
+                    r_text[1] = "For you, what was the best thing about being in Junior High?";
+                    r_text[2] = "What is something you like about yourself?";
+                    r_text[3] = "What do you plan to do when you graduate?";
+                    r_text[4] = "What is one of the best books you’ve ever read?";
+                    r_text[5] = "What is the most recent book you read?";
+                    r_text[6] = "What is one gadget you’d like to own?";
+                    r_text[7] = "Who is your best friend?";
+                    r_text[8] = "Who was your best friend as a kid?";
+                    r_text[9] = "Who was your best friend in Grade ?";
+                    r_text[10] = "Who is your best friend in high school?";
+                    r_text[11] = "If you could travel anywhere in the world, where would you go?";
+                    r_text[12] = "What do you think your life to be like five years from now?";
+                    r_text[13] = "Name one of your most favorite possessions.";
+                    r_text[14] = "Did you have a childhood nickname? If so, what’s the story behind it?";
+                    r_text[15] = "What is something you are looking forward to doing within the next six months?";
+                    r_text[16] = "What is your favorite part about coming to Life ?";
+                    r_text[17] = "If you could possess any extraordinary talent in one of the arts, what would you choose?";
+                    r_text[18] = "What’s your favorite musical group?";
+                    r_text[19] = "What’s your most favorite concert you’ve ever been to?";
+                    r_text[20] = "What is your favorite outfit to wear?";
+                    r_text[21] = "What are you dreaming about for your life?";
+                    r_text[22] = "If you could own the world’s largest collection of something, what would it be?";
+                    r_text[23] = "What is the most important thing that makes a relationship successful?";
+                    r_text[24] = "When you think about your future, what are you most excited about?";
+                    r_text[25] = "What happened to you last week that you hope happens next week?";
+                    r_text[26] = "If you could be one age for the rest of your life, how old would you choose to be?";
+                    r_text[27] = "What is some place that you would really like to visit?";
+                    r_text[28] = "What is one thing you’ve never done that you would really like to do?";
+                    r_text[29] = "What is your least favorite chore to do at home?";
+                    r_text[30] = "If you could invent a holiday, what and when would it be?";
+                    r_text[31] = "Have you ever written any poetry or songs? If so, what about?";
+                    r_text[32] = "What are qualities you want your friends to have?";
+                    r_text[33] = "What do you hope your life will be like years from now?";
+                    r_text[34] = "If you could be a contestant on any game show, which one would you choose?";
+                    r_text[35] = "When you are surprised with free minutes during the day, how do you spend it?";
+                    r_text[36] = "If you could change one thing about your school, what would it be?";
+                    r_text[37] = "How would you explain/describe joy to someone who doesn't speak the same language as you?";
+                    r_text[38] = "What activity in your life makes you smile the most?";
+                    r_text[39] = "What one possession do you most cherish?";
+                    r_text[40] = "What was your very first job?";
+                    r_text[41] = "If you could have any one super-power, which one would you choose and why?";
+                    r_text[42] = "What’s your least favorite sound in the world?";
+                    r_text[43] = "If you could personally witness any event in history, which one would you choose?";
+                    r_text[44] = "What is one step you can take to become more like your role model?";
+                    r_text[45] = "When you get an unexpected hour of free time, how do you spend it?";
+                    r_text[46] = "List all of the cities you have lived in, and how long / what ages you lived there.";
+                    r_text[47] = "Who’s someone you admire/respect? Why?";
+                    r_text[48] = "What CD is in your CD player right now?";
+                    r_text[49] = "What DVD is in your DVD player right now?";
+                    r_text[50] = "What playlist is currently playing on your iPod right now?";
+                    r_text[51] = "When you need just groceries – like a loaf of bread – where do you go to buy it?";
+                    r_text[52] = "What’s the most needlessly repeated phrase a parent or teacher of yours ever uses / used?";
+                    r_text[53] = "If you had an unlimited gift card to any one restaurant, which one wouldyou choose?";
+                    r_text[54] = "If you could have a bottomless drink dispenser in your kitchen which drink would you choose?";
+                    r_text[55] = "What is one of your most favorite songs?";
+                    r_text[56] = "if you had $5 to spend, how would you spend it?";
+                    r_text[57] = "If you had $50 to spend, how would you spend it?";
+                    r_text[58] = "If you had $500 to spend, how would you spend it?";
+                    r_text[59] = "If you had a theme song (one that played every time you entered a room), which song would you choose?";
+                    r_text[60] = "What is your favorite animal?";
+                    r_text[61] = "Where were you born (hospital, state, city)?";
+                    r_text[62] = "Where is your favorite place to eat?";
+                    r_text[63] = "What are your favorite kinds of flowers?";
+                    r_text[64] = "What toy from childhood was your favorite toy to play with?";
+                    r_text[65] = "If one of your senses could have supernatural abilities, which one sense would you choose?";
+                    r_text[66] = "If you could have any animal in the world as a pet, what animal would you choose?";
+                    r_text[67] = "If you could use any mode of transportation to get somewhere, which one would you choose?";
+                    r_text[68] = "Who is your favorite cartoon character? Why?";
+                    r_text[69] = "If you could live anywhere in the Canada for 3 months, where would you live? Why?";
+                    r_text[70] = "What is your favorite thing to do with friends?";
+                    r_text[71] = "What’s your dream car?";
+                    r_text[72] = "What is the best thing that has happened to you in the past year?";
+                    r_text[73] = "What is your favorite ice cream topping?";
+                    r_text[74] = "What is your favorite ice cream flavor?";
+                    r_text[75] = "What thing doesn’t exist that someone needs to invent?";
+                    r_text[76] = "If we could have this conversation anywhere, where would you like to have it?";
+                    r_text[77] = "What is one other hair-style you have had besides the one you currently have?";
+                    r_text[78] = "What is your favorite kind of fruit?";
+                    r_text[79] = "If you could be on any Game Show, which one would you choose?";
+                    r_text[80] = "If you could be on any Reality TV Show, which one would you choose?";
+                    r_text[81] = "If you could design the perfect TV channel, what would be on it?";
+                    r_text[82] = "What one thing would you change about your house if you could?";
+                    r_text[83] = "How many siblings do you have?";
+                    r_text[84] = "If you could write an article for any magazine, which magazine would you choose, and what would your article be about?";
+                    r_text[85] = "What was the most recent movie you saw in the theater?";
+                    r_text[86] = "What was the most recent stage performance you’ve seen?";
+                    r_text[87] = "What’s the best stage performance you’ve ever seen?";
+                    r_text[88] = "How often do you check your e-mail? Facebook? Voice &amp; text messages?";
+                    r_text[89] = "Do you read any blogs? If so, whose and how often?";
+                    r_text[90] = "If you could plan your own birthday party, what would you plan?";
+                    r_text[91] = "If you were stuck in an elevator for hours with one person, who would you like that person to be?";
+                    r_text[92] = "If you could have one superpower, what would you choose and what would you use it for?";
+                    r_text[93] = "If you had to have the exact same meal for the next twelve months… what would you choose?";
+                    r_text[94] = "Who is your superhero?";
+                    r_text[95] = "What’s your favorite chocolate bar?";
+                    r_text[96] = "What’s your favorite colour?";
+                    r_text[97] = "Where do you like to sit on a School bus?";
+                    r_text[98] = "If you had a free Saturday, how would you use it?";
+                    r_text[99] = "What is your favorite sports team?";
+                    r_text[100] = "You've been asked to produce a reality TV show. Describe the premise.";
+                    r_text[101] = "If you just won $100 million, would you quit school?";
+var i = Math.floor(102*Math.random())
+document.write('<span id="question" style="color: #000; font-weight: 100;">' + r_text[i] + '</span>');
+//-->
+</script></div> </td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td> <button onclick="myFunction()" style="align-content:center">Next!</button>
+            <script>
+function myFunction() {
+    location.reload();
+}
+</script> </td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+          </table>
+        
+        </form>
+        </div>
+    
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="index.html" data-transition="fade" data-theme="" data-icon="home">
+                     <span style:"font-family:Roboto, san-serif">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="level1.html" data-transition="fade" data-theme="" data-icon="plus">
+                     <span style:"font-family:Roboto, san-serif">Level One</span>
+                </a>
+            </li>
+            <li>
+                <a href="level2.html" data-transition="fade" data-theme="" data-icon="plus">
+                     <span style:"font-family:Roboto, san-serif">Level Two</span>
+                </a>
+            </li>
+            <li>
+                <a href="level3.html" data-transition="fade" data-theme="" data-icon="plus">
+                     <span style:"font-family:Roboto, san-serif">Level Three</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
